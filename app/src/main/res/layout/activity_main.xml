@@ -20,19 +20,22 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="INGRESE NOMBRE"/>
+            android:hint="INGRESE NOMBRE"
+            android:id="@+id/ingreseNombre"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:hint="INGRESE APELLIDO" />
+            android:hint="INGRESE APELLIDO"
+            android:id="@+id/ingreseApellido"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:hint="INGRESE EMAIL" />
+            android:hint="INGRESE EMAIL"
+            android:id="@+id/ingreseEmail"/>
 
     </LinearLayout>
 
@@ -46,12 +49,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CONFIRMAR"/>
+        android:text="CONFIRMAR"
+        android:id="@+id/confirmar"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RESET"/>
+        android:text="RESET"
+        android:id="@+id/reset"/>
 
     </LinearLayout>
 
