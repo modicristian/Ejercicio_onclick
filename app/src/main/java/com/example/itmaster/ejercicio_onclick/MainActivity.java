@@ -9,7 +9,8 @@ public class MainActivity extends AppCompatActivity
 {
     private EditText ingreseNombre, ingreseApellido, ingreseEmail;
     private Button confirmar, reset;
-    private OnClickReset onClickReset;
+    private ListenerOnClickReset listenerOnClickReset;
+    private ListenerOnClickConfirmar listenerOnClickConfirmar;
 
     public EditText getIngreseNombre()
     {
@@ -38,9 +39,12 @@ public class MainActivity extends AppCompatActivity
         confirmar = findViewById(R.id.confirmar);
         reset = findViewById(R.id.reset);
 
-        onClickReset = new OnClickReset(this);
+        listenerOnClickReset = new ListenerOnClickReset(this);
+        listenerOnClickConfirmar = new ListenerOnClickConfirmar(this);
 
-        reset.setOnClickListener(onClickReset);
+        reset.setOnClickListener(listenerOnClickReset);
+
+        confirmar.setOnClickListener(listenerOnClickConfirmar);
 
 
     }

@@ -3,12 +3,12 @@ package com.example.itmaster.ejercicio_onclick;
 import android.app.Activity;
 import android.view.View;
 
-public class OnClickReset implements View.OnClickListener
+public class ListenerOnClickReset implements View.OnClickListener
 
 {
     private MainActivity context;
 
-    public OnClickReset(MainActivity context)
+    public ListenerOnClickReset(MainActivity context)
     {
         this.context = context;
     }
