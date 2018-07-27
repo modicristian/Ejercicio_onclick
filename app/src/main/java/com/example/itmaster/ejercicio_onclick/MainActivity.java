@@ -11,7 +11,19 @@ public class MainActivity extends AppCompatActivity
     private Button confirmar, reset;
     private OnClickReset onClickReset;
 
-    public MainActivity() {
+    public EditText getIngreseNombre()
+    {
+        return ingreseNombre;
+    }
+
+    public EditText getIngreseApellido()
+    {
+        return ingreseApellido;
+    }
+
+    public EditText getIngreseEmail()
+    {
+        return ingreseEmail;
     }
 
     @Override
@@ -25,7 +37,12 @@ public class MainActivity extends AppCompatActivity
         ingreseEmail = findViewById(R.id.ingreseEmail);
         confirmar = findViewById(R.id.confirmar);
         reset = findViewById(R.id.reset);
+
         onClickReset = new OnClickReset(this);
+
+        reset.setOnClickListener(onClickReset);
+
+
     }
 
 
