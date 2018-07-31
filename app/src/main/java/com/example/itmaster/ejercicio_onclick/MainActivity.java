@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity
         ingreseNombre = findViewById(R.id.ingreseNombre);
         ingreseApellido = findViewById(R.id.ingreseApellido);
         ingreseEmail = findViewById(R.id.ingreseEmail);
+
         confirmar = findViewById(R.id.confirmar);
         reset = findViewById(R.id.reset);
 
@@ -43,13 +44,8 @@ public class MainActivity extends AppCompatActivity
         listenerOnClickConfirmar = new ListenerOnClickConfirmar(this);
 
         reset.setOnClickListener(listenerOnClickReset);
-
         confirmar.setOnClickListener(listenerOnClickConfirmar);
 
-
     }
-
-
-
 
 }

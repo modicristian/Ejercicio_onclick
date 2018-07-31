@@ -11,20 +11,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ACA TIENE QUE IR EN NOMBRE Y APELLIDO"/>
+            android:text="ACA TIENE QUE IR EL NOMBRE Y APELLIDO"
+            android:id="@+id/nombApe"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="ACA TIENE QUE IR EL MAIL"/>
+            android:text="ACA TIENE QUE IR EL MAIL"
+            android:id="@+id/mail"/>
 
     </LinearLayout>
 
