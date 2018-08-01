@@ -18,14 +18,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ACA TIENE QUE IR EL NOMBRE Y APELLIDO"
             android:id="@+id/nombApe"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="ACA TIENE QUE IR EL MAIL"
             android:id="@+id/mail"/>
 
     </LinearLayout>
